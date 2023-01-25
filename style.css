@@ -162,3 +162,21 @@ img {
     height: 100%;
     object-fit: contain;
 }
+
+h1 {
+    font-size: 2em;
+    /* ukuran font */
+    text-align: center;
+    /* posisi teks */
+}
+
+@media (max-width: 600px) {
+
+    /* ukuran layar maksimal */
+    h1 {
+        font-size: 1.5em;
+        /* mengubah ukuran font */
+        text-align: left;
+        /* mengubah posisi teks */
+    }
+}
